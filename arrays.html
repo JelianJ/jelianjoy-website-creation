@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JelianJoy</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="text/javascript" src="script.js"></script>
+    <style type="text/css">
+
+        h2{
+            margin: 30px auto;
+        }
+        .popup-example-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #000;
+            padding: 20px;
+
+        }
+        label, input{
+            font-size: 1.6rem;
+
+        }
+        li{
+            font-size: 1.5rem;
+        }
+        .multidimensional-example p a{
+            color: #fff;
+            text-underline-offset: 8px;
+        }
+        .multidimensional-example p a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<div class="header">    
+    <div class="btn-menu"> 
+        <h1 class="title_header">Arrays</h1>   
+    </div>
+</div>
+<div class="content">
+    <div id="mySidenav" class="sidenav">
+        <div class="#"><a href="welcome.html">Welcome to my Website</a></div> 
+        <div class="#"><a href="index.html">Home</a></div>
+        <div class="#"><a href="alert_prompt_confirm.html">Alert Prompt Confirm</a></div>
+        <div class="#"><a href="if-else.html">If-else Statement</a></div>
+    
+        <div class="#"><a href="if-elif-else.html">If else-if-else Statement</a></div>  
+        <div class="#"><a href="nested.html">Nested if-else-if-else Statement</a></div>
+        <div class="#"><a href="arithmetic.html">Arithmetic</a></div>  
+        <div class="#"><a href="arrays.html">Arrays</a></div> 
+        <div class="#"><a href="about.html">About</a></div>
+    </div>
+
+    <div class="main">
+        <h1>Types of arrays</h1>
+        <br><p>1.PUSH: The Array. prototype.push() Method is used to add one or more values to the end of the array.
+        <br>2.POP: The pop() method removes (pops) the last element of an array.
+        <br>3.UNSHIFT: The unshift() method adds new elements to the beginning of an array. 
+        <br>4.SHIFT: The shift() method removes the first element from an array and returns that element.
+
+
+        
+        <div class="popup-example-container">
+            
+            <h2>Array Activity Example</h2>
+            <h2>EXAMPLE ARRAY COLOR:
+                <br>
+               <br><span id="arr"> ['Pink', 'Purple', 'Gray', 'Red', 'Orange', 'Blue', 'Green', 'Brown']</span></h2>
+           
+
+		    <div>
+                <label for="input">Enter a brand of car: </label>
+                <input type="text" id="input" placeholder="Enter brand of car">
+                <button onclick="addItem()">Add Item</button>
+            </div>
+            <h1>Brand of Cars</h1>
+            <div class="brand-items">
+                <ol id="myList">
+                <!-- List items will be added dynamically -->
+                li
+                </ol>
+            </div>
+            <div class="buttons">
+                <button onclick="removeFirst()">Shift</button>
+                <button onclick="removeLast()">Pop</button>
+                <button onclick="addFirst()">Unshift</button>
+                <button onclick="addLast()">Push</button>
+            </div>
+            <div class="multidimensional-example">
+                <h2>Example of multidimensional array.</h2>
+                <p><a href="http://multidimensional-array.infinityfreeapp.com/">Multidimesional Array</a></p>
+            </div>
+            </div>
+
+            <div class="last-activity">
+                <h3>Last Activity (BASIC CRUD)</h3>
+                <p><a href="">BASIC CRUD</a></p>
+            </div>
+
+       
+	</div>
+	 <footer>
+        <p>Alright Reserved! Developed By: Jelian Joy H. Grana BSIT-2B</p>
+      </footer>
+
+</body>
+</html>
+
+	
