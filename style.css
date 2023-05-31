@@ -169,7 +169,7 @@ button{
     width: 100px;
     border-radius: 5px;
     background-color: rgb(103, 238, 238);
-    cursor: pointer
+    cursor: pointer;
 }
 
 .buttons{
@@ -184,7 +184,7 @@ button{
 .if-else-button, .if-elif-else-button, .nested-button{
     display: flex;
     justify-content: center;
-    background-color:  lightpink;
+    /* background-color:  lightpink; */
     padding: 20px;
 
 }
@@ -192,7 +192,7 @@ button{
 .arithmetic-buttons{
     display: flex;
     justify-content: center;
-    background-color:  lightpink;
+    /* background-color:  lightpink; */
     padding: 20px;
 
 }
